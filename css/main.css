@@ -630,6 +630,11 @@ footer .copyright p a:hover {
     font-size: 1rem;
   }
 }
+#experience .jobs .job-item {
+
+  padding-bottom: 20px;
+}
+
 @media (min-width: 1200px) {
   h1 {
     font-size: 4.4rem;
