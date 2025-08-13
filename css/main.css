@@ -560,10 +560,12 @@ footer .copyright p a:hover {
             justify-content: space-between;
   }
   #contact .contacts div {
-    margin-top: 15px;
+    margin-top: 0%;
   }
   #contact .contacts .social-media p {
     margin-bottom: 0.5rem;
+    padding-top: 5px;
+
   }
   #contact .contacts .social-media img {
     width: 20px;
