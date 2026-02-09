@@ -259,6 +259,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+.skill-name span:first-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-name i {
+  color: #68d372;
+  width: 18px;
+  text-align: center;
+}
+
 .progress-bar-bg {
   background-color: #ddd;
   height: 10px;
@@ -666,6 +678,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
+#contact .contacts {
+  margin-top: 30px;
+  text-align: left;
+  display: grid;
+  gap: 20px;
+}
+
 #contact .email, #contact .phone {
   margin-top: 30px;
 }
@@ -837,6 +856,9 @@ footer .copyright p a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    gap: 40px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #contact .contacts div {
     margin-top: 0%;
@@ -952,7 +974,7 @@ footer .copyright p a:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-right: 80px;
-    position: absolute;
-    bottom: 100px;
+    position: static;
+    margin-top: 40px;
   }
 }
