@@ -91,22 +91,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .navbar-brand {
   position: absolute;
-  top: 8px;
-  left: 0;
-  width: 56px;
-  height: 56px;
-  background: linear-gradient(135deg, #68d372 0%, #2c7a3b 100%);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  font-size: 1.6em;
+  top: 0;
+  background-color: #68d372;
+  display: inline-block;
+  padding: 20px 10px 0px 10px;
+  font-size: 2em;
   color: white;
   font-weight: 900;
-  letter-spacing: 0.04em;
-  border-radius: 16px;
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
 }
 
 .navbar li .nav-link {
